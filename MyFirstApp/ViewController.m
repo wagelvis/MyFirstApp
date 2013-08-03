@@ -14,6 +14,10 @@
 
 @implementation ViewController
 
+-(IBAction)Click:(id)sender{
+    label.text = @"Mi Primera Aplicación con Xcode";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
